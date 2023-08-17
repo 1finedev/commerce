@@ -25,3 +25,86 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.nav-mobile {
+  width: 40px;
+  height: 40px;
+}
+
+.overlay {
+  background: linear-gradient(
+    0deg,
+    rgba(7, 7, 7, 0.25) 0%,
+    rgba(7, 7, 7, 0.25) 100%
+  );
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Gilroy-Regular.woff') format('woff'),
+    url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('./assets/fonts/Gilroy-Bold.woff') format('woff'),
+    url('./assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Extrabold.woff2') format('woff2'),
+    url('./assets/fonts/Gilroy-Extrabold.woff') format('woff'),
+    url('./assets/fonts/Gilroy-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Black.woff2') format('woff2'),
+    url('./assets/fonts/Gilroy-Black.woff') format('woff'),
+    url('./assets/fonts/Gilroy-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Heavy.woff2') format('woff2'),
+    url('./assets/fonts/Gilroy-Heavy.woff') format('woff'),
+    url('./assets/fonts/Gilroy-Heavy.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Gilroy-Medium.woff') format('woff'),
+    url('./assets/fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Thin.woff2') format('woff2'),
+    url('./assets/fonts/Gilroy-Thin.woff') format('woff'),
+    url('./assets/fonts/Gilroy-Thin.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
